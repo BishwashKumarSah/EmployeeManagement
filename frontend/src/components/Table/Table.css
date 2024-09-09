@@ -1,0 +1,126 @@
+
+.employee-management-container {
+    margin: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  .banner {
+    font-size: 2.5rem;
+    color: white;
+    background-color: #343a40; 
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px; 
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  
+  .button-group {
+    margin-bottom: 20px;
+  }
+  
+  .button-group .action-btn {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+ 
+  .add-employee {
+    background-color: #28a745;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-employee:hover {
+    background-color: #218838; 
+  }
+  
+  
+  .logout {
+    background-color: #dc3545;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout:hover {
+    background-color: #c82333; 
+  }
+  
+  
+  .table-container {
+    margin: 20px auto;
+    overflow-x: auto;
+    max-width: 90%;
+    text-align: center;
+  }
+  
+  .custom-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .custom-table th,
+  .custom-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .custom-table th {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .custom-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .custom-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+
+  .action {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .action-btn {
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+ 
+  .action-btn.edit {
+    background-color: #ffc107; 
+  }
+  
+  .action-btn.edit:hover {
+    background-color: #e0a800; 
+  }
+  
+ 
+  .action-btn.del {
+    background-color: #dc3545; 
+  }
+  
+  .action-btn.del:hover {
+    background-color: #c82333; 
+  }
+  
